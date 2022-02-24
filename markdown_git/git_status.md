@@ -6,7 +6,7 @@
 
 2. staged
 
-    已经标记了修改，准备好快照等待提交
+    已经标记了修改，准备好快照等待提交. what will go into your next commit
 
 3. commit
 
