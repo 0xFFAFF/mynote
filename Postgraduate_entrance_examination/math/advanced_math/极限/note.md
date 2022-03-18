@@ -43,3 +43,4 @@
     &\therefore \lim_{x \to 0}\frac{\sin 3x - \tan 2x}{x} =\lim_{x \to 0}\frac{3x-2x}{x}=1
   \end{aligned}
   $$
+
