@@ -17,3 +17,6 @@
 4. 删除分支
 
     git branch -d XXX
+
+5. 将本地分支推送到远端
+   git push -u origin XXX

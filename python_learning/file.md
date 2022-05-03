@@ -11,3 +11,9 @@
     with open(filename, 'a') as f:
         f.write('hello world!')
     ```
+
+4. 文件读取
+    ```python
+    with open(filename, 'r') as f:
+        print(f.read())
+    ```

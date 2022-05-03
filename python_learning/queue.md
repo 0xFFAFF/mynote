@@ -1,0 +1,4 @@
+- from queue import Queue # 导入包
+- q = Queue() # 创建Queue
+- q.put() # 放入一个数据
+- q.get() # 获取一个数据
