@@ -68,3 +68,29 @@ $(var):hello.h
 ```
 
 ## 清空一下目标文件
+```makefile
+.PHONY: clean
+clean :
+    rm -f $(objects)
+```
+
+## makefile中文件的查找
+可以在文件前加上路径名，但也可以将路径告诉makefile，这样makefile就可以自动查找文件了。
+
+1. 特殊变量：`VPATH`
+    ```makefile
+    VPATH = src:../headers
+    #这样makefile就可以查找src目录下的文件，如果没有找到，就去../headers目录下查找。
+    ```
+    多个目录使用冒号分隔
+
+2. 使用关键字`vpath`
+    1. vpath \<pattern> \<dir> # 为符合pattern的文件设置搜索路径
+        ```makefile
+        vpath %.c %.h ../headers
+        # % 的意思是匹配零或若干字符
+        ```
+
+    2. vpath \<pattern> # 清除符合pattern的文件的搜索路径
+
+    3. vpath # 清除所有的搜索路径
