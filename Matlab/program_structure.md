@@ -11,3 +11,19 @@ while 循环
         ...
     end
 ```
+
+if 判断
+```matlab
+    if condition
+        ...
+    end
+```
+
+if else 判断
+```matlab
+    if condition
+        ...
+    else
+        ...
+    end
+```
