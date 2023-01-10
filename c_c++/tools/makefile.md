@@ -6,3 +6,9 @@
   $< #表示第一个依赖文件
   $^ #表示所有的依赖
   ```
+
+makefile取文件所在目录的相对路径
+  ```makefile
+  $(dir include/test.h)
+  # 返回 include/
+  ```

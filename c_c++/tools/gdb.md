@@ -1,0 +1,11 @@
+# gdb手册
+- run 让要调试的程序跑起来
+- quit 退出gdb
+- break 打断点
+- next 往下执行
+- info 查看信息 info b 查看断点信息
+- print 打印变量的信息
+- step 进入某个函数调试
+- shell 调用shell命令
+- set logging on 将信息打印到log中
+- watchpoint 观察变量是否改变
