@@ -81,3 +81,8 @@ $$
 
 函数的基本性质：
     奇偶性，单调性，有界性，周期性
+$$
+\begin{aligned}
+\parallel \widetilde{q}_{ib}(t,\tau_k) - P_o \parallel > r_o + d_{safe}/2 + \xi
+\end{aligned}
+$$

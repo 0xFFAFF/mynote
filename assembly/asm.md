@@ -54,7 +54,7 @@
 
 4. 功能调用
 
-   ```asm
+   ```nasm
    mov ax, 3
    int 0x10; text mode. 80x25. 16 colors. 8 pages.
    ```
@@ -93,7 +93,7 @@
       5. IP入栈
       6. 读取程序入口地址设置IP和CS
    5. iret指令$\Leftrightarrow$
-      ```asm
+      ```nasm
       pop IP 
       pop CS 
       popf
@@ -119,7 +119,7 @@
 
 9.  输入输出
 
-```asm
+```nasm
 in al, dx
 in ax, dx
 out dx, al
