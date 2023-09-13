@@ -18,3 +18,11 @@
     y = f(x)
     int(y, x, a, b)
    ```
+   用matlab求解下式的积分值
+   $$ \int_{0}^{\infty}4e^{-t}dt $$
+   ```matlab
+   syms t;
+   f = 4 * exp(-t);
+   ans = int(f, t, 0, Inf);
+   % >> ans = 4
+   ```

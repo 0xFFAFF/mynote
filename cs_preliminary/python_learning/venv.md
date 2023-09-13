@@ -7,7 +7,7 @@
 2. 运行虚拟环境
    1. 使用cmd cd命令将路径切换至你的工程文件夹中
    2. 运行 XXX\Scripts\activate.bat
-
+    **linux**环境下采用`source`命令
 3. 退出虚拟环境
 
     deactivate
