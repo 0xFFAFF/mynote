@@ -24,3 +24,11 @@ $$
     I_2 = \frac{C_2}{C_1 + C_2} * I
 \end{aligned}
  $$
+
+3. 电容器电压电流关系
+   $$ I = \mathrm{C} \frac{du}{dt} $$
+
+
+## 电感相关知识
+1. 电感电压电流关系
+   $$ u = L \frac{di}{dt} $$
