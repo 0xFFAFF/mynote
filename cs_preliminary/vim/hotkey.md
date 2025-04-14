@@ -43,7 +43,7 @@
 - 查找与替换
   - /word + n
   - `:/s/word_before_replace/word_after_replace/g` 全局替换单词
-  - `:1,100/s/word_before/word_after` 指定行数替换  
+  - `:1,100s/word_before/word_after` 指定行数替换  
 
 ## 复制粘贴
 
